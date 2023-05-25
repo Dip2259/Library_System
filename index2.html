@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Books</title>
+</head>
+<body>
+    <div class="bookform">
+        <div id="namediv" class="formdiv">
+            <label>Student Name:</label>
+            <textarea id="name" class="input"></textarea>
+        </div>
+        <div id="rolldiv" class="formdiv">
+            <label>Student Roll:</label>
+            <textarea id="roll" class="input"></textarea>
+        </div>
+        <div id="Iddiv" class="formdiv">
+            <label>Student Id:</label>
+            <textarea id="Id" class="input"></textarea>
+        </div>
+        <div id="semdiv" class="formdiv">
+            <label>Semester:</label>
+            <textarea id="sem" class="input"></textarea>
+        </div>
+        <div id="scodediv" class="formdiv">
+            <label>Subject Code:</label>
+            <textarea id="scode" class="input"></textarea>
+            <img src="./Image/plus.png" alt="" id="plus">
+        </div>
+        <div id="bnamediv" class="formdiv">
+            <label>Book Name:</label>
+            <textarea id="bname" class="input""></textarea>
+        </div>
+        <div class="buttons">
+            <button id="submit">Submit</button>
+            <button id="check">Check</button>
+            <button id="done" disabled>Done</button>
+            <button id="clear" disabled>Clear Entry</button>
+        </div>
+    </div>
+    <div class="showList">
+        <div class="header">
+            <span id="sl" class="headContent">SL NO.</span>
+            <span id="bookName" class="headContent">Book Name</span>
+            <span id="bookcode" class="headContent">Subject Code</span>
+        </div>
+        <div class="list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

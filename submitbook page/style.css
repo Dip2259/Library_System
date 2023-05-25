@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.stdId{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    /* background-color: red; */
+    margin: 1.5rem auto;
+    padding: 2rem 3rem;
+}
+.stdId input{
+    width: 20vw;
+    height: 6.5vh;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    font-size: 1.35rem;
+    padding: 0rem 0.25rem;
+    background-color: #cfcac5;
+}
+.stdId span{
+    font-size: 1.35rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase; 
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+    margin: 1.59rem auto;
+}
+.btn{
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    letter-spacing: 1.59;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0.45rem 0.59rem;
+    border-radius: 0.46rem;
+}
+.btn:active{
+    background-color: aquamarine;
+}
+.BookList{
+    width: 50vw;
+    margin: 5rem auto;
+    border-collapse: collapse;
+}
+.BookList td{
+    text-align:  center;
+    border: 0.1rem solid black;
+}
+.BookList thead th{
+    background-color: cadetblue;
+    border: 0.1rem solid black;
+}
+.BookList thead th:nth-child(2){
+    width: 30vw;
+}
